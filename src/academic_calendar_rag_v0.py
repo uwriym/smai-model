@@ -64,6 +64,6 @@ class AcademicCalendarRAG:
 
 if __name__ == "__main__":
     rag = AcademicCalendarRAG()
-    question = input("질문을 입력하세요: ")
+    question = input("\nQ: ")
     answer = rag.get_answer(question)
-    print("답변:", answer)
+    print("\nA: ", answer)
