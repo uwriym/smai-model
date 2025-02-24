@@ -13,7 +13,7 @@ def load_version_module(version):
 
 def main():
     try:
-        version = '0'
+        version = input("Enter version: ")
         AcademicCalendarRAG = load_version_module(version)
         rag_system = AcademicCalendarRAG(version=version)
         print(f"상명대학교 학사일정 RAG Loaded(version: {version})")
